@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\ipatterson\Desktop\2019-09-17 Classwork\2019-09-17 Classwork\Main.cpp(11,7): error C2678:  binary '<': no operator found which takes a left-hand operand of type 'std::ostream' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(258,24): message :  could be 'bool std::operator <(const std::error_code &,const std::error_code &) noexcept' [found using argument-dependent lookup]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\system_error(263,24): message :  or       'bool std::operator <(const std::error_condition &,const std::error_condition &) noexcept' [found using argument-dependent lookup]
+C:\Users\ipatterson\Desktop\2019-09-17 Classwork\2019-09-17 Classwork\Main.cpp(13,1): message :  or       'built-in C++ operator<(const char [24], const char [24])'
+C:\Users\ipatterson\Desktop\2019-09-17 Classwork\2019-09-17 Classwork\Main.cpp(13,1): message :  while trying to match the argument list '(std::ostream, const char [24])'
+C:\Users\ipatterson\Desktop\2019-09-17 Classwork\2019-09-17 Classwork\Main.cpp(13,1): error C2143:  syntax error: missing ';' before '}'
